@@ -3,8 +3,8 @@ using namespace std;
 int main()
 {
     
-    int num;
-    cin >> num;
+    int num,num2;
+    cin >> num>>num2;
     if (num % 2 == 0)cout << "Even";
     else cout << "Odd";
 }
