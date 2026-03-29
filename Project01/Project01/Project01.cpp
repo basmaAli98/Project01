@@ -2,9 +2,11 @@
 using namespace std;
 int main()
 {
-    for (int i = 0; i <= 5; i++) {
-        cout << i << " ";
-    }
+    
+    int num;
+    cin >> num;
+    if (num % 2 == 0)cout << "Even";
+    else cout << "Odd";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
