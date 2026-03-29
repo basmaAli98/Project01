@@ -2,11 +2,18 @@
 using namespace std;
 int main()
 {
+
     
     int num,num2;
     cin >> num>>num2;
     if (num % 2 == 0)cout << "Even";
     else cout << "Odd";
+
+    int x,y;
+    cin >> x>>y;
+    cout << x+y;
+    cout << "files";
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
