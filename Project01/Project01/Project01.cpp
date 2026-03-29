@@ -3,10 +3,7 @@ using namespace std;
 int main()
 {
     
-    int num;
-    cin >> num;
-    if (num % 2 == 0)cout << "Even";
-    else cout << "Odd";
+    cout << "files";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
